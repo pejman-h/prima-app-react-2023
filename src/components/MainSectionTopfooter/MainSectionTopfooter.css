@@ -1,0 +1,20 @@
+.top-footer {
+    /* border:1px solid #a048f7; */
+    /* margin: 0 auto;
+    width: 100%; */
+    text-align: left;
+    height:  24.5rem;
+    background-color: #F0F0F0;
+}
+.top-footer div {
+    padding: 1.75rem 2rem;
+}
+.top-footer h2 {
+    width: 80%;
+}
+.btn-footer {
+    background-image:url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\freccia.png);
+    background-repeat: no-repeat;
+    background-position: 91% 56%;
+    padding-right: 2rem;
+}

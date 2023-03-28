@@ -1,0 +1,17 @@
+.partner {
+    /* border:1px solid #1aa078; */
+    /* margin: 0 auto;
+    width: 100%; */
+    height:  233;
+    background-color: #F0F0F0;
+
+}
+.partner .img-partner {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 7rem
+    
+}

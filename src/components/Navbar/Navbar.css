@@ -1,0 +1,35 @@
+
+nav {
+    margin: 0;
+    margin-top: 2rem;
+    height: 4.5rem;
+    display:flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    position: sticky;
+    top: 0rem ;
+    background-color: #F0F0F0;
+    z-index: 2;
+}
+nav a {
+    padding-left: 2rem;
+    color:#1D1B1F ;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav > a {
+    display: flex;
+    
+}
+nav > div {
+    display:flex;
+    align-items: center;
+   }
+nav .menu {
+    padding-left: 12rem;
+}

@@ -1,0 +1,60 @@
+.our-customers {
+    height: 46.125rem;
+    margin-bottom: 11rem;
+}
+
+.our-customers h2 {
+    padding-bottom: 1rem;
+}
+.flex-cont {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.aticol {
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    width: 20.5rem; 
+}
+.aticol span {
+    display: block;
+    text-align: left;
+    padding-left: 1.2rem;
+    padding-bottom: 0.4rem;
+    color: #706D73;
+}
+.aticol a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #1D1B1F;
+    padding-left: 1.2rem;
+    padding-bottom: 0.4rem;
+}
+.one {
+    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-1.png);
+    background-repeat: no-repeat;
+    height: 80%;
+}
+.two {
+    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-2.png);
+    background-repeat: no-repeat;
+}
+.tree {
+    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-3.png);
+    background-repeat: no-repeat;
+    height: 80%;
+}
+.aticol p {
+    padding-top: 12rem;
+    text-align: left;
+    padding-left: 1.2rem;
+    padding-bottom: 1rem;
+}
+.one p {
+    padding-bottom: 2.3rem;
+}
+.flex-cont img {
+    cursor: pointer;
+}

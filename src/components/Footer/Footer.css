@@ -1,0 +1,80 @@
+
+footer {
+    background-color: #1D1B1F;
+    color: #ffffff;
+    padding: 2rem 1.75rem;
+}
+footer hr {
+    border: 1px solid #FBFAFC;
+}
+.footer-conteiner {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    text-align: left;
+}
+.footer-conteiner > a {
+    text-decoration: none;
+    color: #F0F0F0;
+ }
+.footer-conteiner h5 {
+    font-size: 1rem;
+     margin-top: 0;
+} 
+.footer-conteiner .contact {
+    text-align: left;
+}
+.list h5 a {
+    font-size: 1rem;
+    color: #D3D0D6;
+    text-decoration: none;
+}
+.footer-conteiner ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+}  
+.footer-conteiner li  a {
+    text-decoration: none;
+    color: #F0F0F0;
+ }
+
+.footer-conteiner .my-page {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-conteiner .my-page a {
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.footer-conteiner > div > a {
+    padding-left: 1rem;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+footer ul > li{
+    padding-bottom: 1.5rem;
+    color: #D3D0D6;
+}
+.fa-brands {
+    font-size: 1.5625rem;
+}
+
+footer .social {
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .social div > a > i {
+   padding-right: 1.5rem;
+   color: #F0F0F0;
+   padding-top: 1rem;
+}
+.social > span {
+    text-align: left;
+}

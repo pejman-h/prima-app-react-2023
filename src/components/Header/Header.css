@@ -1,0 +1,18 @@
+
+header {
+    /* border:1px solid #1D1B1F;  */
+    text-align: center;
+    padding-bottom: 6.25rem; 
+    margin-top: 5rem;
+}
+header .header {
+    padding: 0 1rem;
+    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\src\components\Header);
+    background-repeat: no-repeat;
+    background-position: 50% 12%;
+}
+h1 ~ p {
+    color:#706D73;
+    font-weight: 500;
+    font-size: 1.25rem;
+}

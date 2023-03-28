@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+html,body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    /* width: 100%;
+    margin:  0; */
+    background-color: #FBFAFC;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 0) and (max-width: 481px){
+    div.flex-cont {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    div.two , img.col-1 {
+        display: none;
+    }
+     nav .menu + div > a {
+    display: none;
+    } 
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    div.flex-cont {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    div.two , img.col-1 {
+        display: none;
+    }
+    nav > div{
+        padding-right: 6rem;
+    }
+    .top-footer>div {
+        padding: 2rem 6.25rem;
+    }
+    nav>a {
+        padding-left: 6rem;
+    }
+    .header {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .our-customers {
+        margin-bottom: 0;
+    }
+    footer {
+        padding: 2rem 1.75rem;
+    }
+    .footer-conteiner{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    footer > .footer-conteiner > div {
+        display: flex;
+        gap: 2rem;
+    }
+    footer .social {
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .menu{
+        display: none;
+    }
+   
+}
+
+
+@media screen and (min-width: 769px){
+    h1{
+        font-size: 4.25rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    section.img-partner {
+        flex-wrap: nowrap;
+    }
+    .how-does>div {
+        width: 40rem;
+    }
+    nav > div{
+        padding-right: 6rem;
+    }
+    .top-footer>div {
+        padding: 2rem 6.25rem;
+    }
+    nav>a {
+        padding-left: 6rem;
+    }
+    .header {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .our-customers {
+        margin-bottom: 0;
+    }
+    footer {
+        padding: 2rem 1.75rem;
+    }
+    .footer-conteiner{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    footer > .footer-conteiner > div {
+        display: flex;
+        gap: 2rem;
+    }
+    footer .social {
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .menu{
+        display: none;
+    }
+}   
