@@ -7,7 +7,7 @@ header {
 }
 header .header {
     padding: 0 1rem;
-    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\src\components\Header);
+    background-image: url('./Img/griglie.png');
     background-repeat: no-repeat;
     background-position: 50% 12%;
 }

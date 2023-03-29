@@ -8,13 +8,13 @@ import "./Main.css"
 function Main() {
     return (
         <>
-            <Main>
+            <main>
                 <MainSectionWhy />
                 <MainSactionPartner />
                 <MainSactionOur />
                 <MainSactionHow />
                 <MainSectionTopfooter />
-            </Main>
+            </main>
         </>
     )
 

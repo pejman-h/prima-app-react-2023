@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import '../Layout/Layout.jsx'
 import Layout from '../Layout';
+import TodoList from '../TodoList';
+import Todo from '../Todo';
 function App() {
   return (
     <>
@@ -9,6 +10,8 @@ function App() {
        
     </div>
     <Layout/>
+    {/* <TodoList/> */}
+    {/* <Todo/> */}
     </>
   );
 }

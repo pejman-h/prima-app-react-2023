@@ -33,16 +33,16 @@
     padding-bottom: 0.4rem;
 }
 .one {
-    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-1.png);
+    background-image: url('/public/assets/foto-1.png');
     background-repeat: no-repeat;
     height: 80%;
 }
 .two {
-    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-2.png);
+    background-image: url('/public/assets/foto-2.png');
     background-repeat: no-repeat;
 }
 .tree {
-    background-image: url(C:\Users\Pejman\Desktop\progetti\prima-app-react-2023\public\assets\foto-3.png);
+    background-image: url('/public/assets/foto-3.png');
     background-repeat: no-repeat;
     height: 80%;
 }
